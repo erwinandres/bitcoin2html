@@ -1,0 +1,87 @@
+/* RESET */
+html {
+  min-height: 100%;
+  font-family: 'Ubuntu Mono', 'Roboto Mono', Consolas, Monaco, 'Andale Mono', monospace;
+  font-size: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  margin:0;
+}
+
+
+p, h1, h2, h3{
+  margin: 0;
+  padding: 0;
+}
+
+/**
+ * Paragraphs
+ *
+ * Sets the baseline to a height of 1.5.
+ */
+p {
+  font-size: 1em;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+}
+
+ h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 3em;
+  line-height: 1;
+  margin-top: 6rem;
+}
+
+h2 {
+  font-size: 2.5em;
+  line-height: 1.2;
+  margin-top: 4.5rem;
+}
+
+h3 {
+  font-size: 2em;
+  line-height: 1.5;
+  margin-top: 3rem;
+}
+
+/** Lists */
+ul, ol {
+  margin: 0 0 1.5rem 0;
+}
+
+ul ul,
+ol ol {
+  margin: 0 0 0 4em;
+}
+
+code {
+  font-size: .9em;
+  line-height: 0;
+}
+
+
+/** Links */
+a {
+  color: #09f;
+  text-decoration: underline;
+}
+
+a:active,
+a:focus {
+  position: static;
+}
+
+.wrapper {
+  width: 95%;
+  max-width: 37rem;
+  margin: 0 auto;
+}
